@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --font-menu:"Montserrat", sans-serif;
+    --font-secondary:"Abril Fatface", serif;
+    --text-color:white;
+}
+a{
+ color:var(--text-color) !important; 
+font-size:18px !important;
+font-family:var(--font-menu);
+}
+
+
+header{
+   background:linear-gradient(90deg, rgba(34,34,34,0.9999999999999999) 0%, rgba(34,34,34,0.9999999999999999) 38%, rgba(34,34,34,0) 100%),url("Shape.png");
+    width:100%;
+    height:100%;
+    background-attachment: fixed;
+    background-size:cover; 
+}
+.offcanvas{
+    background-color:rgba(34,34,34,0.9999999999999999);
+} 
+.bizza{
+    font-family:var(--font-secondary);
+    font-size:80px ;
+}
+header p{
+    font-family: var(--font-menu);
+    font-size:26px ;
+}
+.order{
+    font-family: var(--font-menu);
+    width:max-content;
+    border-radius:25px;
+    font-size:22px;
+    letter-spacing:1px;
+    padding:10px 90px !important;
+    position: relative;
+     overflow: hidden; 
+    z-index: 2;
+}
+
+.order:hover::after{
+    display: block;
+}
+
+section{
+    background:url("sksk.png");
+    height:100%;
+    background-size:cover;
+    background-attachment:fixed;
+    color:white;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom:50px;
+   
+}
+section h1{
+    font-size:60px;
+    font-family:var(--font-secondary);
+}
+section .para,h2{
+     font-size:25px;
+     font-family: var(--font-menu);
+}
+section p{
+    font-family: var(--font-menu);
+    font-size: 17px;
+}
+aside{
+    background-image:url("ss.png");
+    background-size: cover;
+    height: 100%;
+    padding-bottom:100px;
+    background-attachment:fixed;
+    overflow: hidden;
+}
+aside h2{
+    font-size:80px;
+    font-family:var(--font-secondary);
+}
+aside p{
+    font-size:25px;
+    font-family: var(--font-menu);
+}
+article{
+    background:url("sksk.png");
+    height:100%;
+    background-size:cover;
+    background-attachment:fixed;
+    color:white;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom:125px;
+}
+article h2{
+    font-size:80px;
+    font-family:var(--font-secondary);
+}
+article p{
+    font-size:25px;
+    font-family: var(--font-menu);
+}
+article .col-3{
+    border: 5px solid rgb(255, 252, 252);
+    border-radius:100px;
+    width: 150px;
+    height:150px;
+    margin:25px 60px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top:30px;
+    font-family: var(--font-menu);
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.discount{
+    background-image: url("Place.png");
+    background-size:cover;
+    height:100%;
+    padding-bottom:100px;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.discount h2{
+    font-size:80px;
+    font-family:var(--font-secondary);
+}
+.discount p{
+    font-size:25px;
+    font-family: var(--font-menu);
+}
+.lorem1{
+    background:linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7)38%),url("shh.png");
+    height:100%;
+    background-size: cover;
+    padding-bottom:250px;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.lorem1 p{
+    font-size:25px;
+    font-family:var(--font-menu);
+    letter-spacing:1px;
+    margin-top:180px;
+    
+}
+.lorem1 h2{
+    font-size:50px;
+    font-family:var(--font-secondary);
+}
+.lorem{
+    background:url("sksk.png");
+    height:100%;
+    background-size:cover;
+    color:white;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom:225px;
+    background-attachment: fixed;
+    
+}
+.lorem h2{
+    font-size:80px;
+    font-family:var(--font-secondary);
+}
+
+
+footer{
+    background-color:black;
+    height:100%;
+    font-family:var(--font-menu);
+    background-attachment: fixed;
+    padding-bottom:180px;
+}
+footer i{
+    padding:10px 13px;
+    background-color: white;
+    color: black;
+    border-radius:100px;
+    margin:10px;
+    
+}
+
+
